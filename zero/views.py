@@ -8,8 +8,8 @@ def home(request):
 def about(request):
     return render(request,'about.html')
 
-def Shop(request):
-    return HttpResponse('Hello World')
+def shop(request):
+    return render(request,'shop.html')
 
-def contactus(request):
-    return HttpResponse('Hello World')
+def contact(request):
+    return render(request,'contact.html')
